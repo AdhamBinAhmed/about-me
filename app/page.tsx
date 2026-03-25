@@ -61,20 +61,13 @@ export default function Home() {
 
            <SocialCard
           title="My Future Company"
-          link="megadevs.vercel.net"
+          link="https://megadevs.vercel.app"
           color="bg-blue-700"
         />
-
-<br />
-<br />
-<br />
-<div className="mt-4 w-full max-w-sm">
-  <a
+   <SocialCard
+    title="call me"
     href="tel:01023382444"
-    className="block text-center py-4 rounded-2xl font-bold text-lg bg-gradient-to-r from-green-500 to-emerald-600 shadow-lg hover:scale-105 transition"
-  >
-    call me: 01023382444
-  </a>
+  />
 </div>
 
       </div>
