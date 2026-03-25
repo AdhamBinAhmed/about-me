@@ -1,7 +1,7 @@
 "use client";
 
 ##import { motion } from "framer-motion";
-import SocialCard from "./components/SocialCard";
+import SocialCard from "./SocialCard";
 
 export default function Home() {
   return (
