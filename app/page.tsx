@@ -64,7 +64,7 @@ export default function Home() {
           link="https://megadevs.vercel.app"
           color="bg-blue-700"
         />
-        <br>
+       <br />
    <SocialCard
     title="call me"
     link="tel:01023382444"
