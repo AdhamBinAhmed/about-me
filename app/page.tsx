@@ -66,7 +66,7 @@ export default function Home() {
         />
    <SocialCard
     title="call me"
-    href="tel:01023382444"
+    link="tel:01023382444"
   />
 </div>
     </main>
