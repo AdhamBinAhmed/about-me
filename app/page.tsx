@@ -7,12 +7,7 @@ export default function Home() {
     <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-black via-gray-900 to-black text-white px-4">
 
       {/* الصورة + الاسم */}
-      <div
-        initial={{ opacity: 0, y: -30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        className="text-center"
-      >
+  <div className="text-center">
         <img
           src="/me.jpg"
           className="w-32 h-32 rounded-full border-4 border-white mx-auto"
