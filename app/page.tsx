@@ -21,7 +21,7 @@ export default function Home() {
       <div className="text-center"
       >
         <img
-          src="/bg.jpg"
+          src="/bg1.jpg"
           className="w-32 h-32 rounded-full border-4 border-white mx-auto shadow-lg"
         />
 
