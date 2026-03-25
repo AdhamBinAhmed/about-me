@@ -69,8 +69,6 @@ export default function Home() {
     href="tel:01023382444"
   />
 </div>
-
-      </div>
     </main>
   );
 }
