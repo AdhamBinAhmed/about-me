@@ -60,7 +60,7 @@ export default function Home() {
         />
 
            <SocialCard
-          title="My Project"
+          title="My Future Company"
           link="megadevs.vercel.net"
           color="bg-blue-700"
         />
