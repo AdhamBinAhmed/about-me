@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+
 import SocialCard from "./components/SocialCard";
 
 export default function Home() {
@@ -18,11 +18,7 @@ export default function Home() {
       </div>
 
       {/* الصورة + الاسم */}
-      <motion.div
-        initial={{ opacity: 0, y: -30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.6 }}
-        className="text-center"
+      <div className="text-center"
       >
         <img
           src="/bg.jpg"
@@ -34,7 +30,7 @@ export default function Home() {
         </h1>
 
         <p className="text-gray-400 mt-1">Contact Me</p>
-      </motion.div>
+      </div>
 
       {/* السوشيال */}
       <div className="mt-8 w-full max-w-sm space-y-4">
