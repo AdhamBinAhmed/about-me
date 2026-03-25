@@ -1,6 +1,12 @@
 "use client";
 
-export default function SocialCard({ title, link, color }) {
+interface Props {
+  title: string;
+  link: string;
+  color: string;
+}
+
+export default function SocialCard({ title, link, color }: Props) {
   return (
     <a
       href={link}
